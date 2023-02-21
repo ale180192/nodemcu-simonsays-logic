@@ -16,3 +16,34 @@
 
  ### Documentacion:
   * [ESP8266EX MCU datasheet](https://www.espressif.com/sites/default/files/documentation/0a-esp8266ex_datasheet_en.pdf)
+
+
+  ### Ejemplo del juego Simon
+   * [Simon online](https://freesimon.org/)
+
+
+
+
+### Caracteristicas del juego:
+ * El juego deberia tener al menos 3 niveles de dificultad:
+    * facil: Tener un maximo score de 5 secuencias
+    * normal: Tener un maximo score de 10 secuencias
+    * legendario: Tener un maximo score de 25 secuencias
+
+* El juego debera tener sonido
+* El juego debera tener 4 colores diferentes
+* Cuando el jugador supere el nivel configurado se debera abrir el cerrojo electromecanico.
+* Cuando el jugador supere el juego los leds deberan encender en una secuencia especifica.
+
+### Material
+ * Tarjeta arduino nano
+ * push buttons con LED's color verde, rojo, amarillo y azul integrados
+ * madera para colocar los leds
+ * push button normalmente abierto color rojo
+ * buzzer pasivo
+ * protoboard
+ * placa fenolica, soldadura, pasta para soldar, cautin, alambre calibre 22
+
+ #### push buttons y leds
+ * cable verde es positivo para led(pin 1), amarillo es negativo para led(pin 2) 
+ * negro es comun, azul normalmente abierto y rojo normalmente cerrado
